@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car rental - Rent a Car and Drive</title>
+    <link href="styling/styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.ico" />
+  </head>
+
+  <body>
+    <!-- Main Container -->
+    <div class="grid-container">
+
+      <!-- Section header top -->
+      <div class="grid-item header-top" style="grid-area: header-top">
+        <div class="outter-top">
+          <img src="./assets/icons/whatsApp-top-icon.PNG" />
+          <a target="_blank" href="https://wa.me/+27748368368">Chat on WhatsApp</a>
+        </div>
+        <div class="inner-top">
+          <div class="inner-top-item">
+            <img src="./assets/icons/location-top-icon.PNG" />
+            <p>1234 Maint St. City, State 12345</p>
+          </div>
+          <div class="inner-top-item">
+            <img src="./assets/icons/email-top-icon.PNG" />
+            <p>info@carrental.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section navbar top -->
+      <div class="grid-item flex-nav" style="grid-area: navbar">
+        <div class="logo">
+          <a href="./index.html"><img src="./assets/images/logo-navbar.png" alt="logo-image" /></a>
+        </div>
+    
+        <!-- hamburger navigation -->
+        <div class="hamburger">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+        <div class="inner-nav">
+          <div class="inner-nav-item"> 
+            <li><a href="#">HOME</a></li>
+          </div>
+          <div class="inner-nav-item"> 
+            <li><a href="#">ABOUT</a></li>
+           </div>
+          <div class="inner-nav-item"> 
+            <li><a href="#">SERVICES</a></li>
+          </div>
+          <div class="inner-nav-item"> 
+            <li><a href="#">CARS</a></li>
+          </div>
+          <div class="inner-nav-item"> 
+            <li><a href="#">CONTACT</a></li>
+          </div>
+          <div class="inner-nav-item"> 
+            <li><a href="#"><button>RESERVE NOW</button></a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Section Hero top -->
+    <div class="grid-item grid-hero" style="grid-area: hero">
+        <div class="hero-item">
+          <img class="hero-image-1" src="./assets/images/hero-image-1.png" alt="hero-image-1" />
+        </div>
+        <div class="hero-item">
+          <img class=" hero-image-2" src="./assets/images/hero-image-2.png" alt="hero-image-2"/></a>
+          <p>Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+          <a href="#"><button>LEARN MORE</button></a>
+        </div>
+    </div>  
+
+    <!-- Section reservation form -->
+    <div class="grid-item reservation-form" style="grid-area: reservation">
+        <div class="reservation-item">     
+          <label for="location">Pick-up Location:</label>
+          <select id="location">
+            <option value="">Select location:</option>
+            <option value="cape-town">Cape Town</option>
+            <option value="johannesburg">Johannesburg</option>
+          </select>
+        </div>        
+        <div class="reservation-item">
+          <label for="pickup-date">Pick-up Date:</label>
+          <input type="date" id="pickup-date">
+        </div>        
+        <div class="reservation-item">
+          <label for="dropoff-date">Drop-off Date:</label>
+          <input type="date" id="dropoff-date">
+        </div>
+        <div class="reservation-item">
+          <label for="car-type"> Car Type:</label>
+          <select id="car-type">
+            <option value="">Select car type</option>
+            <option value="sedan">Sedan</option>
+            <option value="suv">SUV</option>
+            <option value="compact">Compact</option>
+          </select>
+        </div> 
+        <div class="reservation-item ">  
+          <a href="#"><button>SEARCH</button></a>
+          <h1>Check for Availabilty</h1>
+        </div>        
+      </div>
+
+      <!-- Section Carousel -->
+      <div class="grid-item " style="grid-area: carousel">
+        
+         <div class="flex-carousel-title"> <!--  Carousel Title-->
+           <h1> - OUR VEHICLES - </h1>
+         </div>
+        <div class="flex-carousel"> <!-- Actual Carousel -->
+              <div class="carousel-card carousel-image">
+            <img  src="./assets/images/economy-cars.JPG" alt="economy-cars" />
+            <p>Available for Rental</p>
+          </div>
+          <div class="carousel-card carousel-image">
+            <img  src="./assets/images/suv-cars.JPG" alt="economy-cars" />
+            <p>Available for Rental</p>
+          </div>
+          <div class="carousel-card carousel-image">
+            <img  src="./assets/images/luxury-cars.JPG" alt="economy-cars" />
+            <p>Available for Rental</p>
+          </div>
+          <div class="carousel-card carousel-image">
+            <img  src="./assets/images/suv-cars.JPG" alt="economy-cars" />
+            <p>Available for Rental</p>
+          </div>
+          <div class="carousel-card carousel-image">
+            <img  src="./assets/images/luxury-cars.JPG" alt="economy-cars" />
+            <p>Available for rent</p>
+          </div>
+          <div class="carousel-card carousel-image">
+            <img  src="./assets/images/economy-cars.JPG" alt="economy-cars" />
+            <p>Available for Rental</p>
+          </div>
+   
+        </div>
+        <div class="flex-carousel-button"><!--  Carousel button-->
+          <div class="carousel-button">
+            <a href="#"><button>VIEW ALL CARS</button></a>
+          </div>
+        </div>
+
+      </div>  
+      <!-- Section footer -->
+      <div class="grid-item footer" style="grid-area: footer">
+        <div class="footer-list">
+          <ul class="footer-item footer-logo">
+            <li><a href="index.html"><img src="./assets/images/logo-footer.png" alt="footer-logo"/></a></li>
+          </ul>
+        </div>
+        <div class="footer-list">
+          <ul class="footer-item">
+            <li><h2>QUICK LINKS</h2></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Cars</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a target="_blank" href="https://armel-nzawou-developer.github.io/ArmelDesign/"> <span style="color:#bd9c78;">Design by ArmelDesign★</span> </a></li>
+          </ul>
+        </div>
+        <div class="footer-list">
+          <ul class="footer-item">
+            <li><h2>SERVICES</h2></li>
+            <li><a href="#">✓ Economy Cars</a></li>
+            <li><a href="#">✓ SUV Cars</a></li>
+            <li><a href="#">✓ Luxury Cars</a></li>
+            <li><a href="#">✓ Van Rental</a></li>
+            <li><a href="#">✓ Long Term Renatal</a></li>
+          </ul>
+        </div>
+        <div class="footer-list">
+          <ul class="footer-item">
+            <li><h2>CONNECT</h2></li>
+            <li class="footer-icons"><img src="./assets/icons/location-footer-icon.PNG" alt="location-footer-icon"/><p>1234 Main St. Haston City, State 12345</p></li>
+            <li class="footer-icons"><img src="./assets/icons/phone-footer-icon.PNG" alt="phone-footer-icon"/><p>+ 1 (153) 415-3609 </p></li>
+            <li class="footer-icons"><img src="./assets/icons/email-footer-icon.PNG" alt="email-footer-icon"/><p>info@carrental.com</p></li>
+            <li class="footer-icons"><img src="./assets/icons/calendar-icon.PNG" alt="calendar-icon"/> <p>Mon - Sat, 09:00 AM - 06:00 PM</p></li>
+            <li class="footer-icons">
+              <a target="_blank" href="https://www.facebook.com/"><img src="./assets/icons/facebook-footer-icon.png" alt="facebook-footer-icon"/></a>
+              <a target="_blank" href="https://x.com/"><img src="./assets/icons/twitter-footer-icon.png" alt="twitter-footer-icon"/></a>
+              <a target="_blank" href="https://www.instagram.com/"><img src="./assets/icons/instagram-footer-icon.png" alt="instagram-footer-icon"/></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Section header bottom -->
+      <div class="grid-item header-bottom" style="grid-area: header-bottom">
+        <div class="outter-bottom">
+          <img src="./assets/icons/whatsApp-top-icon.PNG" />
+          <a target="_blank" href="https://wa.me/+27748368368">Chat on WhatsApp</a>
+        </div>
+        <div class="inner-bottom">
+          <div class="inner-bottom-item">
+            <img src="./assets/icons/location-top-icon.PNG" />
+            <p>1234 Main St. Haston City, State 12345</p>
+          </div>
+          <div class="inner-bottom-item">
+            <img src="./assets/icons/email-top-icon.PNG" />
+            <p>info@carrental.com</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>  
+  </body>
+</html>
