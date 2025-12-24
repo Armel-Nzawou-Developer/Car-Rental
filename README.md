@@ -48,12 +48,13 @@ This site follows accessibility best practices:
 
 7. Deployment
 
-Live Demo: https://armel-nzawou-developer.github.io/ArmelDesign/
+Live Demo: https://armel-nzawou-developer.github.io/Car-Rental/
 
 8. License
 
 - This website is not an open source but private.
-- This website is licensed under ArmelDesign★ <https://armel-nzawou-developer.github.io/ArmelDesign/> .
+This website is licensed under the owner's brand (ArmelDesign★).<https://armel-nzawou-developer.github.io/ArmelDesign/> .
+
 
 
 
