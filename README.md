@@ -24,7 +24,7 @@ It showcases a simple mock up of a rental company's services, in a clean, access
 - Modern CSS3 (Flexbox, Grid, Media Queries)
 - PHP on the reservation form 
 
-- Hex Colors from Adobe Palette Color:
+-- Hex Colors from Adobe Palette Color:
 
 -  --bg-main: #faf0e5;
 -  --bg-secondary: #f8e7d5;
@@ -54,4 +54,5 @@ Live Demo: https://armel-nzawou-developer.github.io/ArmelDesign/
 
 - This website is not an open source but private.
 - This website is licensed under ArmelDesign★ <https://armel-nzawou-developer.github.io/ArmelDesign/> .
+
 
