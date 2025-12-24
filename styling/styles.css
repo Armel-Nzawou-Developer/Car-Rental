@@ -368,7 +368,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: var(--accent-primary);
-  height: 70px;
+   height: 85px;
   width: 100%;
   padding-bottom: 15px 15px;
 }
@@ -557,3 +557,4 @@ body {
     padding: 5px 5px;
   }
 }
+
