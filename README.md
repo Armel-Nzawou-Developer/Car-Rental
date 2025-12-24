@@ -26,16 +26,16 @@ It showcases a simple mock up of a rental company's services, in a clean, access
 
 - Hex Colors from Adobe Palette Color:
 
-  --bg-main: #faf0e5;
-  --bg-secondary: #f8e7d5;
-  --bg-card: #f3e0cf;
+-  --bg-main: #faf0e5;
+-  --bg-secondary: #f8e7d5;
+-  --bg-card: #f3e0cf;
 
-  --text-primary: #141311;
-  --text-secondary: #4a4239;
-  --text-muted: #7e756a;
+-  --text-primary: #141311;
+-  --text-secondary: #4a4239;
+-  --text-muted: #7e756a;
 
-  --accent-primary: #bd9c78;
-  --accent-secondary: #c5baad;
+-  --accent-primary: #bd9c78;
+-  --accent-secondary: #c5baad;
 
 
 6. Accessibility & Best Practices
@@ -54,3 +54,4 @@ Live Demo: https://armel-nzawou-developer.github.io/ArmelDesign/
 
 - This website is not an open source but private.
 - This website is licensed under ArmelDesign★ <https://armel-nzawou-developer.github.io/ArmelDesign/> .
+
